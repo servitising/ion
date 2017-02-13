@@ -3,12 +3,12 @@
 </p>
 # **Ion-Core (ION) v1.0**
 
-[![Build Status](https://travis-ci.org/empinel/Ion-Core.png?branch=master)](https://travis-ci.org/empinel/Ion-Core)
+[![Build Status](https://github.com/ionomy/ion/tree/master)](https://github.com/ionomy/ion)
 
 Ion Integration/Staging Tree
 ================================
 
-**Copyright (c) 2015-2017 Empinel**
+**Copyright (c) 2015-2017 ionomy**
 
 #### What is Ion?
 ----------------
@@ -24,7 +24,7 @@ Ion Integration/Staging Tree
 * PoS Reward: Varied
 * PoS Min: 1 Day
 * PoS Max: Unlimited
-* Total Coins: 20,000,000 ION
+* Total Coins: 55,000,000 ION
 * Block Size: 2 Mega-bytes (MB)
 
 
@@ -33,8 +33,8 @@ Ion is a digital currency that enables instant payments to anyone, anywhere in t
 
 
 **MainNet Parameters**
-P2P Port = 58273
-RPC Port = 59273
+P2P Port = 12700
+RPC Port = 12705
 
 
 **TestNet Parameters**
