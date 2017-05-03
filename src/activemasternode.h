@@ -62,6 +62,14 @@ public:
 
     // enable hot wallet mode (run a masternode with no funds)
     bool EnableHotColdMasterNode(CTxIn& vin, CService& addr);
+    
+    std::string getStatusMessage() {
+        std::string strStatusMessage = "";
+
+        if(status == MASTERNODE_NOT_PROCESSED) strStatusMessage = "Masternode has not been processed.";
+
+        return strStatusMessage;
+    }
 };
 
 #endif
