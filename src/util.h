@@ -127,7 +127,6 @@ extern bool fDebugSmsg;
 extern bool fNoSmsg;
 extern bool fPrintToConsole;
 extern bool fPrintToDebugLog;
-
 extern bool fDaemon;
 extern bool fServer;
 extern bool fCommandLine;

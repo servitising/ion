@@ -91,7 +91,7 @@ std::vector<int64_t> darkSendDenominations;
 
 map<string, string> mapArgs;
 map<string, vector<string> > mapMultiArgs;
-bool fDebug = false;        //aspa: this can be retired
+bool fDebug = false;
 bool fDebugSmsg = false;
 bool fNoSmsg = false;
 bool fPrintToConsole = false;
@@ -104,7 +104,7 @@ bool fNoListen = false;
 bool fLogTimestamps = false;
 volatile bool fReopenDebugLog = false;
 
-    // Init OpenSSL library multithreading support
+// Init OpenSSL library multithreading support
 static CCriticalSection** ppmutexOpenSSL;
 void locking_callback(int mode, int i, const char* file, int line)
 {
@@ -266,8 +266,7 @@ bool LogAcceptCategory(const char* category)
 
         // if not debugging everything and not debugging specific category, LogPrint does nothing.
         if (setCategories.count(string("")) == 0 &&
-                setCategories.count(string("all")) == 0 &&
-                setCategories.count(string(category)) == 0)
+            setCategories.count(string(category)) == 0)
             return false;
     }
     return true;
