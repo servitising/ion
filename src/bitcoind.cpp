@@ -3,6 +3,10 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
+#if defined(HAVE_CONFIG_H)
+#include "config/ion-config.h"
+#endif
+
 #include "rpcserver.h"
 #include "rpcclient.h"
 #include "init.h"
@@ -125,7 +129,7 @@ bool AppInit(int argc, char* argv[])
     return fRet;
 }
 
-extern void noui_connect();
+extern void noui_connect(); 
 int main(int argc, char* argv[])
 {
     bool fRet = false;

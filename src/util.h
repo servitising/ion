@@ -6,6 +6,10 @@
 #ifndef BITCOIN_UTIL_H
 #define BITCOIN_UTIL_H
 
+#if defined(HAVE_CONFIG_H)
+#include "config/ion-config.h"
+#endif
+
 #ifndef WIN32
 #include <sys/types.h>
 #include <sys/time.h>

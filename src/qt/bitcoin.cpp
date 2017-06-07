@@ -2,6 +2,10 @@
  * W.J. van der Laan 2011-2012
  */
 
+#if defined(HAVE_CONFIG_H)
+#include "config/ion-config.h"
+#endif
+
 #include <QApplication>
 
 #include "bitcoingui.h"

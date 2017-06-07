@@ -1,6 +1,10 @@
 #ifndef BITCOINGUI_H
 #define BITCOINGUI_H
 
+#if defined(HAVE_CONFIG_H)
+#include "config/ion-config.h"
+#endif
+
 #include <QMainWindow>
 #include <QSystemTrayIcon>
 

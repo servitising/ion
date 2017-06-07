@@ -1,3 +1,7 @@
+#if defined(HAVE_CONFIG_H)
+#include "config/ion-config.h"
+#endif
+
 #include "optionsdialog.h"
 #include "ui_optionsdialog.h"
 

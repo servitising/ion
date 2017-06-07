@@ -5,6 +5,10 @@
 #ifndef BITCOIN_NET_H
 #define BITCOIN_NET_H
 
+#if defined(HAVE_CONFIG_H)
+#include "config/ion-config.h"
+#endif
+
 #include "compat.h"
 #include "core.h"
 #include "hash.h"

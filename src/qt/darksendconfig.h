@@ -1,6 +1,10 @@
 #ifndef DARKSENDCONFIG_H
 #define DARKSENDCONFIG_H
 
+#if defined(HAVE_CONFIG_H)
+#include "config/ion-config.h"
+#endif
+
 #include <QDialog>
 
 namespace Ui {
